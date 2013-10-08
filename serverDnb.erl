@@ -1,6 +1,4 @@
-%% ITESM CEM, December 4, 2008.
-%% Erlang Source File
-%% Activity: Dots and Boxes
+%% Dots and Boxes
 %% Author: Gastón I. Silva Echegaray
 
 -module(serverDnb).
