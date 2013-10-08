@@ -14,6 +14,8 @@
 start() ->
 	GamesDict = dict:new(),
     register(serverPid, spawn(fun () -> serverLoop(GamesDict) end)),
+    io:fwrite("    To stop Dots & Boxes server type:\n"),
+    io:fwrite("        halt().\n\n"),
     ok.
     
 %%-------------------------------------------------------------------    
